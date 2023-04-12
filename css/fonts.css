@@ -1,0 +1,37 @@
+/* Raleway Regular */
+@font-face {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Regular'), local('Raleway-Regular'),
+        url('../fonts/Raleway-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Hind Siliguri'), local('Hind-Siliguri'),
+        url('../fonts/HindSiliguri-Regular.ttf') format('ttf');
+        
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat'), local('Montserrat'),
+        url('../fonts/Montserrat-Regular.ttf') format('ttf');
+       
+}
+
+@font-face {
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Spectral SC'), local('Spectral SC'),
+        url('../fonts/SpectralSC-Regular.ttf') format('ttf');
+      
+
+
+
