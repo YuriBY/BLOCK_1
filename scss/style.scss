@@ -919,12 +919,201 @@ body {
         text-align: center;
         letter-spacing: 0.8px;
         color: #585858;
-    }
-    
-    
-    
+    }   
 
 }
+.section__six {
+    width: 100%;
+    height: 1059px;
+    margin-top: 200px;
+    background: url('../img/Логотип\ подвал.png') no-repeat left bottom, url('../img/Волная\ над\ подвалом.png') no-repeat;
+    .first__block {
+        width: 50%;
+        height: 495px;
+        background: white;
+        margin: 2% 25%;
+        box-shadow: 6px 7px 7px rgba(137, 137, 137, 0.1);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &::after {
+            content: '';
+            background: url('../img/Лифт\ наверх.png');
+            width: 100px;
+            height: 70px;
+            background-repeat: no-repeat;
+            margin-right: -13%;
+            margin-top: 41%;           
+        }
+    
+    .left {
+        width: 75%;
+        background: url('../img/Монтажная\ область\ 16\ копия\ 1.png') no-repeat left center;
+        background-size: 100%;
+        
+    }
+    .right__one {
+        width: 40%;
+        margin-left: -20%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0.8px;
+        color: #47A7E3;  
+        margin-bottom: 5%;    
+    }
+    .right__two {       
+        width: 70%;        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0.8px;
+        color: #47A7E3;
+        margin-bottom: 5%;       
+       
+    }
+    .right__three {       
+        width: 70%;        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;        
+        color: #585858;
+        margin-bottom: 5%; 
+       
+    }
+    button {
+        width: 70%;
+        height: 20%;   
+        color: white;
+        background: linear-gradient(180deg, #FFA96B -21.43%, #EE7A28 100%);
+        border-radius: 25px;
+       
+    }
+    }
+    .second__block {
+        width: 62%;
+        height: 280px;        
+        margin: 3% auto;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.8px;               
+        .six__footer {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    .border {
+        margin-top: 15px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+    }
+    .main__six {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+    }
+.main__column.one {
+    width: 335px;
+    height: 200px;
+    
+    
+}
+
+.main__column.two {
+    width: 346px;
+    height: 200px;
+    
+    
+}
+.main__column.three {
+    width: 360px;
+    height: 200px;
+   
+   
+}
+.main__column.four {
+    width: 156px;
+    height: 200px;
+    
+    
+}
+
+    .name {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;       
+        letter-spacing: 0.8px;        
+        color: #B5DFFF;
+        margin-bottom: 15px;
+
+    }
+    .main__description {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+    }
+    div button {
+        width: 134px;
+        height: 45px;
+        margin-bottom: 15px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        background: linear-gradient(179.67deg, #45A3DF 21.8%, #4495CE 70.64%);
+    }
+    .footer__six {
+        width: 1920px;
+        height: 66px;
+        margin-top: 160px;
+        background: #2F6192;
+        display: flex;
+        flex-direction: row;
+        .footer__six__block__one {            
+            width: 20%;
+            height: 50%;
+            margin: 15px 25%;
+            background: url('../img/Group\ \(5\).png') no-repeat;
+        }
+        .footer__six__block__two {            
+            width: 16%;
+            height: 50%;
+            margin: 14px 0;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+
+        }
+    }
+}   
+
 
 
 
