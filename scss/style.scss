@@ -713,7 +713,219 @@ body {
         }
     
     }
+.our__label {
+    margin-left: 45%;
+}
+
+.section__five {
+    margin-top: 100px;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 62%;
+    height: 670px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4fr 1fr 4fr 1fr;
+    column-gap: 60px;
+    .image__one {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        background: url('../img/Фото\ 360.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__one {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+
+    .image__two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        background: url('../img/Фото\ на\ моделях.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__two {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+    .image__three {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        background: url('../img/Предментая\ \ фотосъёмка.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__three {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+    .image__four {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+        background: url('../img/Фото\ на\ невидимом\ \ манекене.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__four {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+    .image__five {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        background: url('../img/Фото\ на\ невидимом\ \ манекене.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__five {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+    .image__six {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        background: url('../img/Фотосъёмка\ \ в\ раскладку.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__six {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+    .image__seven {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        background: url('../img/Текст\ +\ SEO.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__seven {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
+    .image__eight {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+        background: url('../img/Имиджевая\ фотосъёмка.png');
+        background-repeat: no-repeat;
+        box-shadow: 0px 7px 15px rgba(98, 112, 122, 0.18);
+        border-radius: 30px;
+        background-position: center center;
+    }
+    .text__eight {
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+        width: 99%;
+        height: 51px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #585858;
+    }
     
+    
+    
+
+}
+
 
 
 
